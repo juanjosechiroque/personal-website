@@ -1,34 +1,20 @@
-# Personal Website
+# Juan José Chiroque — Personal Website
 
-Bilingual professional website for Juan José Chiroque, Senior Software Engineer and Tech Lead. Built with semantic HTML, vanilla CSS and a small JavaScript enhancement layer, with no dependencies or build step.
+A single-page professional website for Juan José Chiroque, a Senior Backend Engineer and Tech Lead seeking full-time remote roles with product-focused startups and technology companies.
+
+The site is intentionally lightweight: semantic HTML, responsive CSS and a small JavaScript enhancement layer. It has no build step or external dependencies.
 
 ## Structure
 
 ```text
-index.html                 English site
-es/index.html              Spanish site
+index.html                 Main English website
+404.html                   Custom not-found page
 assets/css/styles.css      Shared responsive styles
-assets/js/config.js        Public-profile links
+assets/js/config.js        Public profile and contact links
 assets/js/site.js          Mobile navigation and small enhancements
 assets/images/             Profile photo, social preview and favicon
 robots.txt / sitemap.xml   Search-engine discovery
 ```
-
-## Preview locally
-
-From the project root, run:
-
-```bash
-python3 -m http.server 8000
-```
-
-Then open `http://localhost:8000`. The Spanish page is available at `http://localhost:8000/es/`.
-
-## Updating content
-
-- Keep English and Spanish content aligned by updating both `index.html` and `es/index.html`.
-- Update public profile URLs in `assets/js/config.js` and their matching HTML links.
-- Replace images in `assets/images/` only with optimized files that preserve the existing dimensions and references.
 
 ## License
 
